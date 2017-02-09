@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0810"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B9FB2FD91E4C140E002BECC1"
+               BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.app"
+               BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;"
+               ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B9FB2FF21E4C140E002BECC1"
+               BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;Tests.xctest"
+               BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;Tests"
+               ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B9FB2FFD1E4C140E002BECC1"
+               BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;UITests.xctest"
+               BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;UITests"
+               ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B9FB2FD91E4C140E002BECC1"
+            BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.app"
+            BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;"
+            ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B9FB2FD91E4C140E002BECC1"
+            BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.app"
+            BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;"
+            ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B9FB2FD91E4C140E002BECC1"
+            BuildableName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.app"
+            BlueprintName = "OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;"
+            ReferencedContainer = "container:OpenGLES01-&#x73af;&#x5883;&#x642d;&#x5efa;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
