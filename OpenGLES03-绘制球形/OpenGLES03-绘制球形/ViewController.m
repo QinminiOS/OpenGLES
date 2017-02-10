@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  OpenGLES01-环境搭建
+//  OpenGLES03-绘制球形
 //
-//  Created by qinmin on 2017/2/9.
+//  Created by qinmin on 2017/2/10.
 //  Copyright © 2017年 qinmin. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "OpenGLESView.h"
 
 @interface ViewController ()
 
@@ -17,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view = [[OpenGLESView alloc] initWithFrame:self.view.bounds];
+    // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 
 @end

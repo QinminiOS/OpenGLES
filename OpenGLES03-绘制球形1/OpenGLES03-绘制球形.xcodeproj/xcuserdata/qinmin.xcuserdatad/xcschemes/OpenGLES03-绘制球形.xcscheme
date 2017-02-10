@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B9FB301B1E4C90BF002BECC1"
-               BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
-               BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
-               ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
+               BlueprintIdentifier = "B942534C1E4DEF3E00247FB6"
+               BuildableName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
+               BlueprintName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
+               ReferencedContainer = "container:OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B9FB30341E4C90BF002BECC1"
-               BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;Tests.xctest"
-               BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;Tests"
-               ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B9FB303F1E4C90BF002BECC1"
-               BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;UITests.xctest"
-               BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;UITests"
-               ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9FB301B1E4C90BF002BECC1"
-            BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
-            BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
-            ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
+            BlueprintIdentifier = "B942534C1E4DEF3E00247FB6"
+            BuildableName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
+            BlueprintName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
+            ReferencedContainer = "container:OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9FB301B1E4C90BF002BECC1"
-            BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
-            BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
-            ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
+            BlueprintIdentifier = "B942534C1E4DEF3E00247FB6"
+            BuildableName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
+            BlueprintName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
+            ReferencedContainer = "container:OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9FB301B1E4C90BF002BECC1"
-            BuildableName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
-            BlueprintName = "OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
-            ReferencedContainer = "container:OpenGLES02-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
+            BlueprintIdentifier = "B942534C1E4DEF3E00247FB6"
+            BuildableName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.app"
+            BlueprintName = "OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;"
+            ReferencedContainer = "container:OpenGLES03-&#x7ed8;&#x5236;&#x7403;&#x5f62;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

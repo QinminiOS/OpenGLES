@@ -1,8 +1,8 @@
 //
 //  main.m
-//  OpenGLES03-绘制球形
+//  OpenGLES02-绘制球形
 //
-//  Created by qinmin on 2017/2/10.
+//  Created by qinmin on 2017/2/9.
 //  Copyright © 2017年 qinmin. All rights reserved.
 //
 

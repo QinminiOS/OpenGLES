@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  OpenGLES03-绘制球形
+//  OpenGLES01-环境搭建
 //
-//  Created by qinmin on 2017/2/10.
+//  Created by qinmin on 2017/2/9.
 //  Copyright © 2017年 qinmin. All rights reserved.
 //
 
