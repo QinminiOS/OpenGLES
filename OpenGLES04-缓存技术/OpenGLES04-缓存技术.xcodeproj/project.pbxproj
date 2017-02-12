@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95C92261E4F47510078F0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C92251E4F47510078F0DE /* main.m */; };
+		B95C92291E4F47510078F0DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C92281E4F47510078F0DE /* AppDelegate.m */; };
+		B95C922C1E4F47510078F0DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C922B1E4F47510078F0DE /* ViewController.m */; };
+		B95C922F1E4F47510078F0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95C922D1E4F47510078F0DE /* Main.storyboard */; };
+		B95C92311E4F47510078F0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95C92301E4F47510078F0DE /* Assets.xcassets */; };
+		B95C92341E4F47510078F0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95C92321E4F47510078F0DE /* LaunchScreen.storyboard */; };
+		B95C923F1E4F47510078F0DE /* OpenGLES04_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C923E1E4F47510078F0DE /* OpenGLES04_____Tests.m */; };
+		B95C924A1E4F47510078F0DE /* OpenGLES04_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C92491E4F47510078F0DE /* OpenGLES04_____UITests.m */; };
+		B95C925F1E4F476E0078F0DE /* OpenGLESView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C92581E4F476E0078F0DE /* OpenGLESView.m */; };
+		B95C92601E4F476E0078F0DE /* frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B95C925A1E4F476E0078F0DE /* frag.glsl */; };
+		B95C92611E4F476E0078F0DE /* vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B95C925B1E4F476E0078F0DE /* vert.glsl */; };
+		B95C92621E4F476E0078F0DE /* GLUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B95C925D1E4F476E0078F0DE /* GLUtil.c */; };
+		B95C92651E4F578C0078F0DE /* UIImage+GLES.m in Sources */ = {isa = PBXBuildFile; fileRef = B95C92641E4F578C0078F0DE /* UIImage+GLES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95C923B1E4F47510078F0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95C92191E4F47510078F0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95C92201E4F47510078F0DE;
+			remoteInfo = "OpenGLES04-缓存技术";
+		};
+		B95C92461E4F47510078F0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95C92191E4F47510078F0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95C92201E4F47510078F0DE;
+			remoteInfo = "OpenGLES04-缓存技术";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B95C92211E4F47510078F0DE /* OpenGLES04-缓存技术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES04-缓存技术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95C92251E4F47510078F0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95C92271E4F47510078F0DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95C92281E4F47510078F0DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95C922A1E4F47510078F0DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95C922B1E4F47510078F0DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95C922E1E4F47510078F0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95C92301E4F47510078F0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95C92331E4F47510078F0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95C92351E4F47510078F0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95C923A1E4F47510078F0DE /* OpenGLES04-缓存技术Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES04-缓存技术Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95C923E1E4F47510078F0DE /* OpenGLES04_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES04_____Tests.m"; sourceTree = "<group>"; };
+		B95C92401E4F47510078F0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95C92451E4F47510078F0DE /* OpenGLES04-缓存技术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES04-缓存技术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95C92491E4F47510078F0DE /* OpenGLES04_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES04_____UITests.m"; sourceTree = "<group>"; };
+		B95C924B1E4F47510078F0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95C92571E4F476E0078F0DE /* OpenGLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESView.h; sourceTree = "<group>"; };
+		B95C92581E4F476E0078F0DE /* OpenGLESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLESView.m; sourceTree = "<group>"; };
+		B95C925A1E4F476E0078F0DE /* frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frag.glsl; sourceTree = "<group>"; };
+		B95C925B1E4F476E0078F0DE /* vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vert.glsl; sourceTree = "<group>"; };
+		B95C925D1E4F476E0078F0DE /* GLUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLUtil.c; sourceTree = "<group>"; };
+		B95C925E1E4F476E0078F0DE /* GLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtil.h; sourceTree = "<group>"; };
+		B95C92631E4F578C0078F0DE /* UIImage+GLES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GLES.h"; sourceTree = "<group>"; };
+		B95C92641E4F578C0078F0DE /* UIImage+GLES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GLES.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95C921E1E4F47510078F0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92371E4F47510078F0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92421E4F47510078F0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95C92181E4F47510078F0DE = {
+			isa = PBXGroup;
+			children = (
+				B95C92231E4F47510078F0DE /* OpenGLES04-缓存技术 */,
+				B95C923D1E4F47510078F0DE /* OpenGLES04-缓存技术Tests */,
+				B95C92481E4F47510078F0DE /* OpenGLES04-缓存技术UITests */,
+				B95C92221E4F47510078F0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95C92221E4F47510078F0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95C92211E4F47510078F0DE /* OpenGLES04-缓存技术.app */,
+				B95C923A1E4F47510078F0DE /* OpenGLES04-缓存技术Tests.xctest */,
+				B95C92451E4F47510078F0DE /* OpenGLES04-缓存技术UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95C92231E4F47510078F0DE /* OpenGLES04-缓存技术 */ = {
+			isa = PBXGroup;
+			children = (
+				B95C925C1E4F476E0078F0DE /* Utils */,
+				B95C92591E4F476E0078F0DE /* Shader */,
+				B95C92271E4F47510078F0DE /* AppDelegate.h */,
+				B95C92281E4F47510078F0DE /* AppDelegate.m */,
+				B95C922A1E4F47510078F0DE /* ViewController.h */,
+				B95C922B1E4F47510078F0DE /* ViewController.m */,
+				B95C92571E4F476E0078F0DE /* OpenGLESView.h */,
+				B95C92581E4F476E0078F0DE /* OpenGLESView.m */,
+				B95C922D1E4F47510078F0DE /* Main.storyboard */,
+				B95C92301E4F47510078F0DE /* Assets.xcassets */,
+				B95C92321E4F47510078F0DE /* LaunchScreen.storyboard */,
+				B95C92351E4F47510078F0DE /* Info.plist */,
+				B95C92241E4F47510078F0DE /* Supporting Files */,
+			);
+			path = "OpenGLES04-缓存技术";
+			sourceTree = "<group>";
+		};
+		B95C92241E4F47510078F0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95C92251E4F47510078F0DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95C923D1E4F47510078F0DE /* OpenGLES04-缓存技术Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B95C923E1E4F47510078F0DE /* OpenGLES04_____Tests.m */,
+				B95C92401E4F47510078F0DE /* Info.plist */,
+			);
+			path = "OpenGLES04-缓存技术Tests";
+			sourceTree = "<group>";
+		};
+		B95C92481E4F47510078F0DE /* OpenGLES04-缓存技术UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95C92491E4F47510078F0DE /* OpenGLES04_____UITests.m */,
+				B95C924B1E4F47510078F0DE /* Info.plist */,
+			);
+			path = "OpenGLES04-缓存技术UITests";
+			sourceTree = "<group>";
+		};
+		B95C92591E4F476E0078F0DE /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				B95C925B1E4F476E0078F0DE /* vert.glsl */,
+				B95C925A1E4F476E0078F0DE /* frag.glsl */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		B95C925C1E4F476E0078F0DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B95C925D1E4F476E0078F0DE /* GLUtil.c */,
+				B95C925E1E4F476E0078F0DE /* GLUtil.h */,
+				B95C92631E4F578C0078F0DE /* UIImage+GLES.h */,
+				B95C92641E4F578C0078F0DE /* UIImage+GLES.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95C92201E4F47510078F0DE /* OpenGLES04-缓存技术 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95C924E1E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术" */;
+			buildPhases = (
+				B95C921D1E4F47510078F0DE /* Sources */,
+				B95C921E1E4F47510078F0DE /* Frameworks */,
+				B95C921F1E4F47510078F0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES04-缓存技术";
+			productName = "OpenGLES04-缓存技术";
+			productReference = B95C92211E4F47510078F0DE /* OpenGLES04-缓存技术.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95C92391E4F47510078F0DE /* OpenGLES04-缓存技术Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95C92511E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术Tests" */;
+			buildPhases = (
+				B95C92361E4F47510078F0DE /* Sources */,
+				B95C92371E4F47510078F0DE /* Frameworks */,
+				B95C92381E4F47510078F0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95C923C1E4F47510078F0DE /* PBXTargetDependency */,
+			);
+			name = "OpenGLES04-缓存技术Tests";
+			productName = "OpenGLES04-缓存技术Tests";
+			productReference = B95C923A1E4F47510078F0DE /* OpenGLES04-缓存技术Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B95C92441E4F47510078F0DE /* OpenGLES04-缓存技术UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95C92541E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术UITests" */;
+			buildPhases = (
+				B95C92411E4F47510078F0DE /* Sources */,
+				B95C92421E4F47510078F0DE /* Frameworks */,
+				B95C92431E4F47510078F0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95C92471E4F47510078F0DE /* PBXTargetDependency */,
+			);
+			name = "OpenGLES04-缓存技术UITests";
+			productName = "OpenGLES04-缓存技术UITests";
+			productReference = B95C92451E4F47510078F0DE /* OpenGLES04-缓存技术UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95C92191E4F47510078F0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = qinmin;
+				TargetAttributes = {
+					B95C92201E4F47510078F0DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+					};
+					B95C92391E4F47510078F0DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B95C92201E4F47510078F0DE;
+					};
+					B95C92441E4F47510078F0DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B95C92201E4F47510078F0DE;
+					};
+				};
+			};
+			buildConfigurationList = B95C921C1E4F47510078F0DE /* Build configuration list for PBXProject "OpenGLES04-缓存技术" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95C92181E4F47510078F0DE;
+			productRefGroup = B95C92221E4F47510078F0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95C92201E4F47510078F0DE /* OpenGLES04-缓存技术 */,
+				B95C92391E4F47510078F0DE /* OpenGLES04-缓存技术Tests */,
+				B95C92441E4F47510078F0DE /* OpenGLES04-缓存技术UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95C921F1E4F47510078F0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C92341E4F47510078F0DE /* LaunchScreen.storyboard in Resources */,
+				B95C92601E4F476E0078F0DE /* frag.glsl in Resources */,
+				B95C92311E4F47510078F0DE /* Assets.xcassets in Resources */,
+				B95C92611E4F476E0078F0DE /* vert.glsl in Resources */,
+				B95C922F1E4F47510078F0DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92381E4F47510078F0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92431E4F47510078F0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95C921D1E4F47510078F0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C92621E4F476E0078F0DE /* GLUtil.c in Sources */,
+				B95C922C1E4F47510078F0DE /* ViewController.m in Sources */,
+				B95C925F1E4F476E0078F0DE /* OpenGLESView.m in Sources */,
+				B95C92291E4F47510078F0DE /* AppDelegate.m in Sources */,
+				B95C92651E4F578C0078F0DE /* UIImage+GLES.m in Sources */,
+				B95C92261E4F47510078F0DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92361E4F47510078F0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C923F1E4F47510078F0DE /* OpenGLES04_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C92411E4F47510078F0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C924A1E4F47510078F0DE /* OpenGLES04_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95C923C1E4F47510078F0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95C92201E4F47510078F0DE /* OpenGLES04-缓存技术 */;
+			targetProxy = B95C923B1E4F47510078F0DE /* PBXContainerItemProxy */;
+		};
+		B95C92471E4F47510078F0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95C92201E4F47510078F0DE /* OpenGLES04-缓存技术 */;
+			targetProxy = B95C92461E4F47510078F0DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95C922D1E4F47510078F0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95C922E1E4F47510078F0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B95C92321E4F47510078F0DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95C92331E4F47510078F0DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95C924C1E4F47510078F0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95C924D1E4F47510078F0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95C924F1E4F47510078F0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95C92501E4F47510078F0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B95C92521E4F47510078F0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES04-缓存技术.app/OpenGLES04-缓存技术";
+			};
+			name = Debug;
+		};
+		B95C92531E4F47510078F0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES04-缓存技术.app/OpenGLES04-缓存技术";
+			};
+			name = Release;
+		};
+		B95C92551E4F47510078F0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES04-缓存技术";
+			};
+			name = Debug;
+		};
+		B95C92561E4F47510078F0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES04-缓存技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES04-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES04-缓存技术";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95C921C1E4F47510078F0DE /* Build configuration list for PBXProject "OpenGLES04-缓存技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95C924C1E4F47510078F0DE /* Debug */,
+				B95C924D1E4F47510078F0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95C924E1E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95C924F1E4F47510078F0DE /* Debug */,
+				B95C92501E4F47510078F0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95C92511E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95C92521E4F47510078F0DE /* Debug */,
+				B95C92531E4F47510078F0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95C92541E4F47510078F0DE /* Build configuration list for PBXNativeTarget "OpenGLES04-缓存技术UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95C92551E4F47510078F0DE /* Debug */,
+				B95C92561E4F47510078F0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95C92191E4F47510078F0DE /* Project object */;
+}
