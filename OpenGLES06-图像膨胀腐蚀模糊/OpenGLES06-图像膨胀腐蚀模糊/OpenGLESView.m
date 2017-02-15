@@ -110,9 +110,17 @@
 
 - (void)setupGLProgram
 {
-    NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"vert.glsl" ofType:nil];
-    NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"frag.glsl" ofType:nil];
+//    NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"corrode_vert.glsl" ofType:nil];
+//    NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"corrode_frag.glsl" ofType:nil];
+//    _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
+    
+    NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"blur_vert.glsl" ofType:nil];
+    NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"blur_frag.glsl" ofType:nil];
     _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
+    
+//    NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"expand_vert.glsl" ofType:nil];
+//    NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"expand_frag.glsl" ofType:nil];
+//    _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
     
     glUseProgram(_program);
 }

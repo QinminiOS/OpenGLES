@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042EF1AE1E5294260003F826 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 042EF1A81E5294260003F826 /* libpng.a */; };
+		042EF1B11E5294CD0003F826 /* PngUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 042EF1AF1E5294CD0003F826 /* PngUtil.c */; };
+		042EF1B41E529ADA0003F826 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 042EF1B31E529ADA0003F826 /* libz.tbd */; };
+		046107431E53E38E006DA324 /* expand_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 046107411E53E38E006DA324 /* expand_frag.glsl */; };
+		046107441E53E38E006DA324 /* expand_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 046107421E53E38E006DA324 /* expand_vert.glsl */; };
+		046107471E53E642006DA324 /* corrode_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 046107451E53E642006DA324 /* corrode_frag.glsl */; };
+		046107481E53E642006DA324 /* corrode_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 046107461E53E642006DA324 /* corrode_vert.glsl */; };
+		0461074B1E53E6DC006DA324 /* blur_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 046107491E53E6DC006DA324 /* blur_frag.glsl */; };
+		0461074C1E53E6DC006DA324 /* blur_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0461074A1E53E6DC006DA324 /* blur_vert.glsl */; };
 		B98A111E1E51A29700E6E179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B98A111D1E51A29700E6E179 /* main.m */; };
 		B98A11211E51A29700E6E179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B98A11201E51A29700E6E179 /* AppDelegate.m */; };
 		B98A11241E51A29700E6E179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98A11231E51A29700E6E179 /* ViewController.m */; };
@@ -43,6 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042EF1991E5294260003F826 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		042EF19A1E5294260003F826 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		042EF19B1E5294260003F826 /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		042EF1A81E5294260003F826 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		042EF1AF1E5294CD0003F826 /* PngUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PngUtil.c; sourceTree = "<group>"; };
+		042EF1B01E5294CD0003F826 /* PngUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PngUtil.h; sourceTree = "<group>"; };
+		042EF1B31E529ADA0003F826 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		046107411E53E38E006DA324 /* expand_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expand_frag.glsl; sourceTree = "<group>"; };
+		046107421E53E38E006DA324 /* expand_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expand_vert.glsl; sourceTree = "<group>"; };
+		046107451E53E642006DA324 /* corrode_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = corrode_frag.glsl; sourceTree = "<group>"; };
+		046107461E53E642006DA324 /* corrode_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = corrode_vert.glsl; sourceTree = "<group>"; };
+		046107491E53E6DC006DA324 /* blur_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blur_frag.glsl; sourceTree = "<group>"; };
+		0461074A1E53E6DC006DA324 /* blur_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blur_vert.glsl; sourceTree = "<group>"; };
 		B98A11191E51A29700E6E179 /* OpenGLES06-图像膨胀腐蚀模糊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES06-图像膨胀腐蚀模糊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98A111D1E51A29700E6E179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B98A111F1E51A29700E6E179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,7 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EF1B41E529ADA0003F826 /* libz.tbd in Frameworks */,
 				B98A117C1E51A2C300E6E179 /* libjpeg.a in Frameworks */,
+				042EF1AE1E5294260003F826 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +127,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042EF1921E5294260003F826 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1B01E5294CD0003F826 /* PngUtil.h */,
+				042EF1AF1E5294CD0003F826 /* PngUtil.c */,
+				042EF1931E5294260003F826 /* include */,
+				042EF19C1E5294260003F826 /* prebuilt */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		042EF1931E5294260003F826 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1981E5294260003F826 /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		042EF1981E5294260003F826 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1991E5294260003F826 /* png.h */,
+				042EF19A1E5294260003F826 /* pngconf.h */,
+				042EF19B1E5294260003F826 /* pnglibconf.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		042EF19C1E5294260003F826 /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1A71E5294260003F826 /* ios */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		042EF1A71E5294260003F826 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1A81E5294260003F826 /* libpng.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		042EF1B21E529ADA0003F826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042EF1B31E529ADA0003F826 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B98A11101E51A29700E6E179 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +187,7 @@
 				B98A11351E51A29700E6E179 /* OpenGLES06-图像膨胀腐蚀模糊Tests */,
 				B98A11401E51A29700E6E179 /* OpenGLES06-图像膨胀腐蚀模糊UITests */,
 				B98A111A1E51A29700E6E179 /* Products */,
+				042EF1B21E529ADA0003F826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,8 +251,14 @@
 		B98A11511E51A2C300E6E179 /* Shader */ = {
 			isa = PBXGroup;
 			children = (
-				B98A11521E51A2C300E6E179 /* frag.glsl */,
+				0461074A1E53E6DC006DA324 /* blur_vert.glsl */,
+				046107491E53E6DC006DA324 /* blur_frag.glsl */,
+				046107461E53E642006DA324 /* corrode_vert.glsl */,
+				046107451E53E642006DA324 /* corrode_frag.glsl */,
+				046107421E53E38E006DA324 /* expand_vert.glsl */,
+				046107411E53E38E006DA324 /* expand_frag.glsl */,
 				B98A11531E51A2C300E6E179 /* vert.glsl */,
+				B98A11521E51A2C300E6E179 /* frag.glsl */,
 			);
 			path = Shader;
 			sourceTree = "<group>";
@@ -182,11 +266,12 @@
 		B98A11541E51A2C300E6E179 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B98A11571E51A2C300E6E179 /* jpeg */,
+				042EF1921E5294260003F826 /* png */,
 				B9B8192C1E51D68B009758DB /* TextureUtil.h */,
 				B9B8192B1E51D68B009758DB /* TextureUtil.c */,
 				B98A11551E51A2C300E6E179 /* GLUtil.c */,
 				B98A11561E51A2C300E6E179 /* GLUtil.h */,
-				B98A11571E51A2C300E6E179 /* jpeg */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -194,9 +279,9 @@
 		B98A11571E51A2C300E6E179 /* jpeg */ = {
 			isa = PBXGroup;
 			children = (
-				B98A11581E51A2C300E6E179 /* include */,
-				B98A11631E51A2C300E6E179 /* JpegUtil.c */,
 				B98A11641E51A2C300E6E179 /* JpegUtil.h */,
+				B98A11631E51A2C300E6E179 /* JpegUtil.c */,
+				B98A11581E51A2C300E6E179 /* include */,
 				B98A11651E51A2C300E6E179 /* prebuilt */,
 			);
 			path = jpeg;
@@ -304,7 +389,6 @@
 				TargetAttributes = {
 					B98A11181E51A29700E6E179 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SP96U9X4RF;
 						ProvisioningStyle = Automatic;
 					};
 					B98A11311E51A29700E6E179 = {
@@ -347,11 +431,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98A112C1E51A29700E6E179 /* LaunchScreen.storyboard in Resources */,
+				046107441E53E38E006DA324 /* expand_vert.glsl in Resources */,
+				0461074B1E53E6DC006DA324 /* blur_frag.glsl in Resources */,
 				B98A11731E51A2C300E6E179 /* frag.glsl in Resources */,
 				B98A11291E51A29700E6E179 /* Assets.xcassets in Resources */,
 				B98A11741E51A2C300E6E179 /* vert.glsl in Resources */,
+				046107431E53E38E006DA324 /* expand_frag.glsl in Resources */,
 				B98A117E1E51A32100E6E179 /* wood.jpg in Resources */,
+				046107481E53E642006DA324 /* corrode_vert.glsl in Resources */,
+				046107471E53E642006DA324 /* corrode_frag.glsl in Resources */,
 				B98A11271E51A29700E6E179 /* Main.storyboard in Resources */,
+				0461074C1E53E6DC006DA324 /* blur_vert.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +471,7 @@
 				B98A11761E51A2C300E6E179 /* JpegUtil.c in Sources */,
 				B98A11241E51A29700E6E179 /* ViewController.m in Sources */,
 				B98A11721E51A2C300E6E179 /* OpenGLESView.m in Sources */,
+				042EF1B11E5294CD0003F826 /* PngUtil.c in Sources */,
 				B98A11211E51A29700E6E179 /* AppDelegate.m in Sources */,
 				B98A111E1E51A29700E6E179 /* main.m in Sources */,
 			);
@@ -529,12 +620,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SP96U9X4RF;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OpenGLES06-图像膨胀腐蚀模糊/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenGLES06-图像膨胀腐蚀模糊/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES06-图像膨胀腐蚀模糊/Utils/png/prebuilt/ios",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES06---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,12 +638,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SP96U9X4RF;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OpenGLES06-图像膨胀腐蚀模糊/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenGLES06-图像膨胀腐蚀模糊/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES06-图像膨胀腐蚀模糊/Utils/png/prebuilt/ios",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES06---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
