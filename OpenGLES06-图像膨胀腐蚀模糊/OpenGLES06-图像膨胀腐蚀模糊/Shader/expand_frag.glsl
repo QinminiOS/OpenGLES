@@ -6,7 +6,7 @@ varying vec2 vTexcoord;
 
 void main()
 {
-    float block = 200.0;
+    float block = 300.0;
     float delta = 1.0/block;
     vec4 maxColor = vec4(-1.0);
     
