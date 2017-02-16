@@ -190,7 +190,7 @@
     // 激活纹理
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, _texture);
-    glUniform1f(glGetUniformLocation(_program, "image"), _texture);
+    glUniform1i(glGetUniformLocation(_program, "image"), 0);
     
     glDrawArrays(GL_TRIANGLES, 0, _vertCount);
     

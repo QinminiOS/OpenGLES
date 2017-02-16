@@ -389,7 +389,8 @@
 				TargetAttributes = {
 					B98A11181E51A29700E6E179 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = BQWKD37TRB;
+						ProvisioningStyle = Manual;
 					};
 					B98A11311E51A29700E6E179 = {
 						CreatedOnToolsVersion = 8.1;
@@ -620,7 +621,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BQWKD37TRB;
 				INFOPLIST_FILE = "OpenGLES06-图像膨胀腐蚀模糊/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -631,6 +633,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES06---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e494eac0-1dea-4c2f-af5f-54e12f698f9d";
+				PROVISIONING_PROFILE_SPECIFIER = com.lkgame.scmj;
 			};
 			name = Debug;
 		};

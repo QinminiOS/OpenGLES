@@ -20,7 +20,8 @@
 
     GLuint          _program;
     GLuint          _vbo;
-    GLuint          _texture;
+    GLuint          _texture1;
+    GLuint          _texture2;
     int             _vertCount;
 }
 @end
@@ -36,7 +37,8 @@
 - (void)dealloc
 {
     glDeleteBuffers(1, &_vbo);
-    glDeleteTextures(1, &_texture);
+    glDeleteTextures(1, &_texture1);
+    glDeleteTextures(1, &_texture2);
     glDeleteProgram(_program);
 }
 
@@ -47,7 +49,8 @@
         [self setupContext];
         [self setupGLProgram];
         [self setupVBO];
-        [self setupTexure];
+        [self setupTexure1];
+        [self setupTexure2];
     }
     return self;
 }
@@ -112,8 +115,8 @@
 {
     NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"vert.glsl" ofType:nil];
     NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"frag.glsl" ofType:nil];
-    _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
     
+    _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
     glUseProgram(_program);
 }
 
@@ -121,20 +124,13 @@
 {
     _vertCount = 6;
     
-//    GLfloat vertices[] = {
-//        0.5f,  0.5f, 0.0f, 1.0f, 1.0f,   // 右上
-//        0.5f, -0.5f, 0.0f, 1.0f, 0.0f,   // 右下
-//        -0.5f, -0.5f, 0.0f, 0.0f, 0.0f,  // 左下
-//        -0.5f,  0.5f, 0.0f, 0.0f, 1.0f   // 左上
-//    };
-    
     GLfloat vertices[] = {
-        0.5f,  0.5f, 0.0f, 1.0f, 0.0f,   // 右上
-        0.5f, -0.5f, 0.0f, 1.0f, 1.0f,   // 右下
-        -0.5f, -0.5f, 0.0f, 0.0f, 1.0f,  // 左下
-        -0.5f, -0.5f, 0.0f, 0.0f, 1.0f,  // 左下
-        -0.5f,  0.5f, 0.0f, 0.0f, 0.0f,  // 左上
-        0.5f,  0.5f, 0.0f, 1.0f, 0.0f,   // 右上
+        0.8f,  0.6f, 0.0f, 1.0f, 0.0f,   // 右上
+        0.8f, -0.6f, 0.0f, 1.0f, 1.0f,   // 右下
+        -0.8f, -0.6f, 0.0f, 0.0f, 1.0f,  // 左下
+        -0.8f, -0.6f, 0.0f, 0.0f, 1.0f,  // 左下
+        -0.8f,  0.6f, 0.0f, 0.0f, 0.0f,  // 左上
+        0.8f,  0.6f, 0.0f, 1.0f, 0.0f,   // 右上
     };
     
     // 创建VBO
@@ -147,7 +143,7 @@
     glVertexAttribPointer(glGetAttribLocation(_program, "texcoord"), 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat)*5, NULL+sizeof(GL_FLOAT)*3);
 }
 
-- (void)setupTexure
+- (void)setupTexure1
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"wood" ofType:@"jpg"];
     
@@ -162,7 +158,30 @@
     }
     
     // 创建纹理
-    _texture = createTexture2D(GL_RGB, width, height, data);
+    _texture1 = createTexture2D(GL_RGB, width, height, data);
+    
+    if (data) {
+        free(data);
+        data = NULL;
+    }
+}
+
+- (void)setupTexure2
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"flower" ofType:@"jpg"];
+    
+    unsigned char *data;
+    int size;
+    int width;
+    int height;
+    
+    // 加载纹理
+    if (read_jpeg_file(path.UTF8String, &data, &size, &width, &height) < 0) {
+        printf("%s\n", "decode fail");
+    }
+    
+    // 创建纹理
+    _texture2 = createTexture2D(GL_RGB, width, height, data);
     
     if (data) {
         free(data);
@@ -190,14 +209,15 @@
     
     // 激活纹理
     glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, _texture);
-    glUniform1i(glGetUniformLocation(_program, "image"), 0);
+    glBindTexture(GL_TEXTURE_2D, _texture1);
+    glUniform1i(glGetUniformLocation(_program, "image1"), 0);
+    
+    // 激活纹理
+    glActiveTexture(GL_TEXTURE1);
+    glBindTexture(GL_TEXTURE_2D, _texture2);
+    glUniform1i(glGetUniformLocation(_program, "image2"), 1);
     
     glDrawArrays(GL_TRIANGLES, 0, _vertCount);
-    
-    // 索引数组
-    //unsigned int indices[] = {0,1,2,3,2,0};
-    //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, indices);
     
     //将指定 renderbuffer 呈现在屏幕上，在这里我们指定的是前面已经绑定为当前 renderbuffer 的那个，在 renderbuffer 可以被呈现之前，必须调用renderbufferStorage:fromDrawable: 为之分配存储空间。
     [_context presentRenderbuffer:GL_RENDERBUFFER];
