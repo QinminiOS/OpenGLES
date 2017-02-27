@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95463421E5AC46300D0D59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95463411E5AC46300D0D59A /* main.m */; };
+		B95463451E5AC46300D0D59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95463441E5AC46300D0D59A /* AppDelegate.m */; };
+		B95463481E5AC46300D0D59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95463471E5AC46300D0D59A /* ViewController.m */; };
+		B954634B1E5AC46300D0D59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95463491E5AC46300D0D59A /* Main.storyboard */; };
+		B954634D1E5AC46300D0D59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B954634C1E5AC46300D0D59A /* Assets.xcassets */; };
+		B95463501E5AC46300D0D59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B954634E1E5AC46300D0D59A /* LaunchScreen.storyboard */; };
+		B954635B1E5AC46300D0D59A /* OpenGLES08_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B954635A1E5AC46300D0D59A /* OpenGLES08_______Tests.m */; };
+		B95463661E5AC46300D0D59A /* OpenGLES08_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95463651E5AC46300D0D59A /* OpenGLES08_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95463571E5AC46300D0D59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95463351E5AC46300D0D59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B954633C1E5AC46300D0D59A;
+			remoteInfo = "OpenGLES08-图像边缘检测";
+		};
+		B95463621E5AC46300D0D59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95463351E5AC46300D0D59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B954633C1E5AC46300D0D59A;
+			remoteInfo = "OpenGLES08-图像边缘检测";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B954633D1E5AC46300D0D59A /* OpenGLES08-图像边缘检测.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES08-图像边缘检测.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95463411E5AC46300D0D59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95463431E5AC46300D0D59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95463441E5AC46300D0D59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95463461E5AC46300D0D59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95463471E5AC46300D0D59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B954634A1E5AC46300D0D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B954634C1E5AC46300D0D59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B954634F1E5AC46300D0D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95463511E5AC46300D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95463561E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES08-图像边缘检测Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B954635A1E5AC46300D0D59A /* OpenGLES08_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES08_______Tests.m"; sourceTree = "<group>"; };
+		B954635C1E5AC46300D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95463611E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES08-图像边缘检测UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95463651E5AC46300D0D59A /* OpenGLES08_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES08_______UITests.m"; sourceTree = "<group>"; };
+		B95463671E5AC46300D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B954633A1E5AC46300D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95463531E5AC46300D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954635E1E5AC46300D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95463341E5AC46300D0D59A = {
+			isa = PBXGroup;
+			children = (
+				B954633F1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */,
+				B95463591E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests */,
+				B95463641E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests */,
+				B954633E1E5AC46300D0D59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B954633E1E5AC46300D0D59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B954633D1E5AC46300D0D59A /* OpenGLES08-图像边缘检测.app */,
+				B95463561E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests.xctest */,
+				B95463611E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B954633F1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */ = {
+			isa = PBXGroup;
+			children = (
+				B95463431E5AC46300D0D59A /* AppDelegate.h */,
+				B95463441E5AC46300D0D59A /* AppDelegate.m */,
+				B95463461E5AC46300D0D59A /* ViewController.h */,
+				B95463471E5AC46300D0D59A /* ViewController.m */,
+				B95463491E5AC46300D0D59A /* Main.storyboard */,
+				B954634C1E5AC46300D0D59A /* Assets.xcassets */,
+				B954634E1E5AC46300D0D59A /* LaunchScreen.storyboard */,
+				B95463511E5AC46300D0D59A /* Info.plist */,
+				B95463401E5AC46300D0D59A /* Supporting Files */,
+			);
+			path = "OpenGLES08-图像边缘检测";
+			sourceTree = "<group>";
+		};
+		B95463401E5AC46300D0D59A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95463411E5AC46300D0D59A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95463591E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B954635A1E5AC46300D0D59A /* OpenGLES08_______Tests.m */,
+				B954635C1E5AC46300D0D59A /* Info.plist */,
+			);
+			path = "OpenGLES08-图像边缘检测Tests";
+			sourceTree = "<group>";
+		};
+		B95463641E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95463651E5AC46300D0D59A /* OpenGLES08_______UITests.m */,
+				B95463671E5AC46300D0D59A /* Info.plist */,
+			);
+			path = "OpenGLES08-图像边缘检测UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B954633C1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B954636A1E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测" */;
+			buildPhases = (
+				B95463391E5AC46300D0D59A /* Sources */,
+				B954633A1E5AC46300D0D59A /* Frameworks */,
+				B954633B1E5AC46300D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES08-图像边缘检测";
+			productName = "OpenGLES08-图像边缘检测";
+			productReference = B954633D1E5AC46300D0D59A /* OpenGLES08-图像边缘检测.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95463551E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B954636D1E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测Tests" */;
+			buildPhases = (
+				B95463521E5AC46300D0D59A /* Sources */,
+				B95463531E5AC46300D0D59A /* Frameworks */,
+				B95463541E5AC46300D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95463581E5AC46300D0D59A /* PBXTargetDependency */,
+			);
+			name = "OpenGLES08-图像边缘检测Tests";
+			productName = "OpenGLES08-图像边缘检测Tests";
+			productReference = B95463561E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B95463601E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95463701E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测UITests" */;
+			buildPhases = (
+				B954635D1E5AC46300D0D59A /* Sources */,
+				B954635E1E5AC46300D0D59A /* Frameworks */,
+				B954635F1E5AC46300D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95463631E5AC46300D0D59A /* PBXTargetDependency */,
+			);
+			name = "OpenGLES08-图像边缘检测UITests";
+			productName = "OpenGLES08-图像边缘检测UITests";
+			productReference = B95463611E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95463351E5AC46300D0D59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = qinmin;
+				TargetAttributes = {
+					B954633C1E5AC46300D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+					};
+					B95463551E5AC46300D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B954633C1E5AC46300D0D59A;
+					};
+					B95463601E5AC46300D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B954633C1E5AC46300D0D59A;
+					};
+				};
+			};
+			buildConfigurationList = B95463381E5AC46300D0D59A /* Build configuration list for PBXProject "OpenGLES08-图像边缘检测" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95463341E5AC46300D0D59A;
+			productRefGroup = B954633E1E5AC46300D0D59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B954633C1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */,
+				B95463551E5AC46300D0D59A /* OpenGLES08-图像边缘检测Tests */,
+				B95463601E5AC46300D0D59A /* OpenGLES08-图像边缘检测UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B954633B1E5AC46300D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95463501E5AC46300D0D59A /* LaunchScreen.storyboard in Resources */,
+				B954634D1E5AC46300D0D59A /* Assets.xcassets in Resources */,
+				B954634B1E5AC46300D0D59A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95463541E5AC46300D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954635F1E5AC46300D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95463391E5AC46300D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95463481E5AC46300D0D59A /* ViewController.m in Sources */,
+				B95463451E5AC46300D0D59A /* AppDelegate.m in Sources */,
+				B95463421E5AC46300D0D59A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95463521E5AC46300D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B954635B1E5AC46300D0D59A /* OpenGLES08_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954635D1E5AC46300D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95463661E5AC46300D0D59A /* OpenGLES08_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95463581E5AC46300D0D59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B954633C1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */;
+			targetProxy = B95463571E5AC46300D0D59A /* PBXContainerItemProxy */;
+		};
+		B95463631E5AC46300D0D59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B954633C1E5AC46300D0D59A /* OpenGLES08-图像边缘检测 */;
+			targetProxy = B95463621E5AC46300D0D59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95463491E5AC46300D0D59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B954634A1E5AC46300D0D59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B954634E1E5AC46300D0D59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B954634F1E5AC46300D0D59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95463681E5AC46300D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95463691E5AC46300D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B954636B1E5AC46300D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B954636C1E5AC46300D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B954636E1E5AC46300D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES08-图像边缘检测.app/OpenGLES08-图像边缘检测";
+			};
+			name = Debug;
+		};
+		B954636F1E5AC46300D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES08-图像边缘检测.app/OpenGLES08-图像边缘检测";
+			};
+			name = Release;
+		};
+		B95463711E5AC46300D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES08-图像边缘检测";
+			};
+			name = Debug;
+		};
+		B95463721E5AC46300D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES08-图像边缘检测UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES08-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES08-图像边缘检测";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95463381E5AC46300D0D59A /* Build configuration list for PBXProject "OpenGLES08-图像边缘检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95463681E5AC46300D0D59A /* Debug */,
+				B95463691E5AC46300D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B954636A1E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954636B1E5AC46300D0D59A /* Debug */,
+				B954636C1E5AC46300D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B954636D1E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954636E1E5AC46300D0D59A /* Debug */,
+				B954636F1E5AC46300D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95463701E5AC46300D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES08-图像边缘检测UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95463711E5AC46300D0D59A /* Debug */,
+				B95463721E5AC46300D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95463351E5AC46300D0D59A /* Project object */;
+}

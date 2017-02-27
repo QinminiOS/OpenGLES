@@ -38,6 +38,13 @@ extern "C" {
 #define GLlog(format,...)           printf(format,__VA_ARGS__)
 #endif
 
+#if GLES_TARGET_PLATFORM == GLES_PLATFORM_ANDROID
+#include <GLES2/gl2.h>
+#include <GLES2/gl2ext.h>
+#include <stdio.h>
+#include <android/log.h>
+#define GLlog(format,...)           __android_log_print(ANDROID_LOG_INFO, "OpenGLES", __VA_ARGS__)
+#endif
 
 /**
  get the content of a file
@@ -91,14 +98,6 @@ GLuint createVBO(GLenum target, int usage, int datSize, void *data);
  @return texture buffer id
  */
 GLuint createTexture2D(GLenum format, int width, int height, void *data);
-
-/**
- create VAO Object
- 
- @param setting your pack command
- @return vao id
- */
-GLuint createVAO(void(*setting)());
     
 #ifdef __cplusplus
 }

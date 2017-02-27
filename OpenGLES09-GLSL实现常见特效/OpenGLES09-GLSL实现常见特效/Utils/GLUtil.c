@@ -142,30 +142,3 @@ GLuint createTexture2D(GLenum format, int width, int height, void *data)
     glBindTexture(GL_TEXTURE_2D, 0);
     return texture;
 }
-
-GLuint createVAO(void(*setting)())
-{
-#ifdef GL_ES_VERSION_3_0
-    GLuint vao;
-    glGenVertexArrays(1, &vao);
-    glBindVertexArray(vao);
-    if (setting) {
-        setting();
-    }
-    glBindVertexArray(0);
-    return vao;
-#endif
-    
-#if GL_OES_vertex_array_object
-    GLuint vao;
-    glGenVertexArrays(1, &vao);
-    glBindVertexArray(vao);
-    if (setting) {
-        setting();
-    }
-    glBindVertexArray(0);
-    return vao;
-#endif
-    
-    return 0;
-}
