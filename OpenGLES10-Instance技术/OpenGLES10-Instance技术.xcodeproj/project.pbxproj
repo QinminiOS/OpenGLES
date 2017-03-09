@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B954626E1E5A879400D0D59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B954626D1E5A879400D0D59A /* main.m */; };
+		B95462711E5A879400D0D59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95462701E5A879400D0D59A /* AppDelegate.m */; };
+		B95462741E5A879400D0D59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95462731E5A879400D0D59A /* ViewController.m */; };
+		B95462771E5A879400D0D59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95462751E5A879400D0D59A /* Main.storyboard */; };
+		B95462791E5A879400D0D59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95462781E5A879400D0D59A /* Assets.xcassets */; };
+		B954627C1E5A879400D0D59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B954627A1E5A879400D0D59A /* LaunchScreen.storyboard */; };
+		B95462871E5A879400D0D59A /* OpenGLES10_Instance__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95462861E5A879400D0D59A /* OpenGLES10_Instance__Tests.m */; };
+		B95462921E5A879400D0D59A /* OpenGLES10_Instance__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95462911E5A879400D0D59A /* OpenGLES10_Instance__UITests.m */; };
+		B95462DD1E5A87C600D0D59A /* OpenGLESView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95462A01E5A87C600D0D59A /* OpenGLESView.m */; };
+		B95462DE1E5A87C600D0D59A /* frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B95462A21E5A87C600D0D59A /* frag.glsl */; };
+		B95462DF1E5A87C600D0D59A /* vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B95462A31E5A87C600D0D59A /* vert.glsl */; };
+		B95462E01E5A87C600D0D59A /* GLUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B95462A51E5A87C600D0D59A /* GLUtil.c */; };
+		B95462E11E5A87C600D0D59A /* JpegUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B95462B31E5A87C600D0D59A /* JpegUtil.c */; };
+		B95462E21E5A87C600D0D59A /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = B95462B71E5A87C600D0D59A /* Android.mk */; };
+		B95462E31E5A87C600D0D59A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462B91E5A87C600D0D59A /* libjpeg.a */; };
+		B95462E41E5A87C600D0D59A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462BB1E5A87C600D0D59A /* libjpeg.a */; };
+		B95462E51E5A87C600D0D59A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462BD1E5A87C600D0D59A /* libjpeg.a */; };
+		B95462E61E5A87C600D0D59A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462BF1E5A87C600D0D59A /* libjpeg.a */; };
+		B95462E71E5A87C600D0D59A /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462C11E5A87C600D0D59A /* libjpeg.a */; };
+		B95462E81E5A87C600D0D59A /* PngUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B95462CC1E5A87C600D0D59A /* PngUtil.c */; };
+		B95462E91E5A87C600D0D59A /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = B95462D01E5A87C600D0D59A /* Android.mk */; };
+		B95462EA1E5A87C600D0D59A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462D21E5A87C600D0D59A /* libpng.a */; };
+		B95462EB1E5A87C600D0D59A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462D41E5A87C600D0D59A /* libpng.a */; };
+		B95462EC1E5A87C600D0D59A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462D61E5A87C600D0D59A /* libpng.a */; };
+		B95462ED1E5A87C600D0D59A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462D81E5A87C600D0D59A /* libpng.a */; };
+		B95462EE1E5A87C600D0D59A /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462DA1E5A87C600D0D59A /* libpng.a */; };
+		B95462EF1E5A87C600D0D59A /* TextureUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B95462DB1E5A87C600D0D59A /* TextureUtil.c */; };
+		B95462F21E5A87F500D0D59A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B95462F11E5A87F500D0D59A /* libz.tbd */; };
+		B95462F41E5A885C00D0D59A /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B95462F31E5A885C00D0D59A /* wood.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95462831E5A879400D0D59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95462611E5A879400D0D59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95462681E5A879400D0D59A;
+			remoteInfo = "OpenGLES10-Instance技术";
+		};
+		B954628E1E5A879400D0D59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95462611E5A879400D0D59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95462681E5A879400D0D59A;
+			remoteInfo = "OpenGLES10-Instance技术";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B95462691E5A879400D0D59A /* OpenGLES10-Instance技术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES10-Instance技术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B954626D1E5A879400D0D59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B954626F1E5A879400D0D59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95462701E5A879400D0D59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95462721E5A879400D0D59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95462731E5A879400D0D59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95462761E5A879400D0D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95462781E5A879400D0D59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B954627B1E5A879400D0D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B954627D1E5A879400D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95462821E5A879400D0D59A /* OpenGLES10-Instance技术Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES10-Instance技术Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95462861E5A879400D0D59A /* OpenGLES10_Instance__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES10_Instance__Tests.m; sourceTree = "<group>"; };
+		B95462881E5A879400D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B954628D1E5A879400D0D59A /* OpenGLES10-Instance技术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES10-Instance技术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95462911E5A879400D0D59A /* OpenGLES10_Instance__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES10_Instance__UITests.m; sourceTree = "<group>"; };
+		B95462931E5A879400D0D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B954629F1E5A87C600D0D59A /* OpenGLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESView.h; sourceTree = "<group>"; };
+		B95462A01E5A87C600D0D59A /* OpenGLESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLESView.m; sourceTree = "<group>"; };
+		B95462A21E5A87C600D0D59A /* frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frag.glsl; sourceTree = "<group>"; };
+		B95462A31E5A87C600D0D59A /* vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vert.glsl; sourceTree = "<group>"; };
+		B95462A51E5A87C600D0D59A /* GLUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLUtil.c; sourceTree = "<group>"; };
+		B95462A61E5A87C600D0D59A /* GLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtil.h; sourceTree = "<group>"; };
+		B95462AA1E5A87C600D0D59A /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		B95462AB1E5A87C600D0D59A /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		B95462AC1E5A87C600D0D59A /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		B95462AD1E5A87C600D0D59A /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		B95462AF1E5A87C600D0D59A /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		B95462B01E5A87C600D0D59A /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		B95462B11E5A87C600D0D59A /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		B95462B21E5A87C600D0D59A /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		B95462B31E5A87C600D0D59A /* JpegUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JpegUtil.c; sourceTree = "<group>"; };
+		B95462B41E5A87C600D0D59A /* JpegUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpegUtil.h; sourceTree = "<group>"; };
+		B95462B71E5A87C600D0D59A /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		B95462B91E5A87C600D0D59A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B95462BB1E5A87C600D0D59A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B95462BD1E5A87C600D0D59A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B95462BF1E5A87C600D0D59A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B95462C11E5A87C600D0D59A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B95462C51E5A87C600D0D59A /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		B95462C61E5A87C600D0D59A /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		B95462C71E5A87C600D0D59A /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		B95462C91E5A87C600D0D59A /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		B95462CA1E5A87C600D0D59A /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		B95462CB1E5A87C600D0D59A /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		B95462CC1E5A87C600D0D59A /* PngUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PngUtil.c; sourceTree = "<group>"; };
+		B95462CD1E5A87C600D0D59A /* PngUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PngUtil.h; sourceTree = "<group>"; };
+		B95462D01E5A87C600D0D59A /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		B95462D21E5A87C600D0D59A /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B95462D41E5A87C600D0D59A /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B95462D61E5A87C600D0D59A /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B95462D81E5A87C600D0D59A /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B95462DA1E5A87C600D0D59A /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B95462DB1E5A87C600D0D59A /* TextureUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TextureUtil.c; sourceTree = "<group>"; };
+		B95462DC1E5A87C600D0D59A /* TextureUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureUtil.h; sourceTree = "<group>"; };
+		B95462F11E5A87F500D0D59A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B95462F31E5A885C00D0D59A /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95462661E5A879400D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95462F21E5A87F500D0D59A /* libz.tbd in Frameworks */,
+				B95462E31E5A87C600D0D59A /* libjpeg.a in Frameworks */,
+				B95462E61E5A87C600D0D59A /* libjpeg.a in Frameworks */,
+				B95462E41E5A87C600D0D59A /* libjpeg.a in Frameworks */,
+				B95462EC1E5A87C600D0D59A /* libpng.a in Frameworks */,
+				B95462E71E5A87C600D0D59A /* libjpeg.a in Frameworks */,
+				B95462EE1E5A87C600D0D59A /* libpng.a in Frameworks */,
+				B95462ED1E5A87C600D0D59A /* libpng.a in Frameworks */,
+				B95462E51E5A87C600D0D59A /* libjpeg.a in Frameworks */,
+				B95462EA1E5A87C600D0D59A /* libpng.a in Frameworks */,
+				B95462EB1E5A87C600D0D59A /* libpng.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954627F1E5A879400D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954628A1E5A879400D0D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95462601E5A879400D0D59A = {
+			isa = PBXGroup;
+			children = (
+				B954626B1E5A879400D0D59A /* OpenGLES10-Instance技术 */,
+				B95462851E5A879400D0D59A /* OpenGLES10-Instance技术Tests */,
+				B95462901E5A879400D0D59A /* OpenGLES10-Instance技术UITests */,
+				B954626A1E5A879400D0D59A /* Products */,
+				B95462F01E5A87F500D0D59A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B954626A1E5A879400D0D59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95462691E5A879400D0D59A /* OpenGLES10-Instance技术.app */,
+				B95462821E5A879400D0D59A /* OpenGLES10-Instance技术Tests.xctest */,
+				B954628D1E5A879400D0D59A /* OpenGLES10-Instance技术UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B954626B1E5A879400D0D59A /* OpenGLES10-Instance技术 */ = {
+			isa = PBXGroup;
+			children = (
+				B95462A11E5A87C600D0D59A /* Shader */,
+				B95462A41E5A87C600D0D59A /* Utils */,
+				B954626F1E5A879400D0D59A /* AppDelegate.h */,
+				B95462701E5A879400D0D59A /* AppDelegate.m */,
+				B95462721E5A879400D0D59A /* ViewController.h */,
+				B95462731E5A879400D0D59A /* ViewController.m */,
+				B954629F1E5A87C600D0D59A /* OpenGLESView.h */,
+				B95462A01E5A87C600D0D59A /* OpenGLESView.m */,
+				B95462751E5A879400D0D59A /* Main.storyboard */,
+				B95462781E5A879400D0D59A /* Assets.xcassets */,
+				B954627A1E5A879400D0D59A /* LaunchScreen.storyboard */,
+				B954627D1E5A879400D0D59A /* Info.plist */,
+				B95462F31E5A885C00D0D59A /* wood.jpg */,
+				B954626C1E5A879400D0D59A /* Supporting Files */,
+			);
+			path = "OpenGLES10-Instance技术";
+			sourceTree = "<group>";
+		};
+		B954626C1E5A879400D0D59A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B954626D1E5A879400D0D59A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95462851E5A879400D0D59A /* OpenGLES10-Instance技术Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B95462861E5A879400D0D59A /* OpenGLES10_Instance__Tests.m */,
+				B95462881E5A879400D0D59A /* Info.plist */,
+			);
+			path = "OpenGLES10-Instance技术Tests";
+			sourceTree = "<group>";
+		};
+		B95462901E5A879400D0D59A /* OpenGLES10-Instance技术UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95462911E5A879400D0D59A /* OpenGLES10_Instance__UITests.m */,
+				B95462931E5A879400D0D59A /* Info.plist */,
+			);
+			path = "OpenGLES10-Instance技术UITests";
+			sourceTree = "<group>";
+		};
+		B95462A11E5A87C600D0D59A /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				B95462A21E5A87C600D0D59A /* frag.glsl */,
+				B95462A31E5A87C600D0D59A /* vert.glsl */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		B95462A41E5A87C600D0D59A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C21E5A87C600D0D59A /* png */,
+				B95462A71E5A87C600D0D59A /* jpeg */,
+				B95462A51E5A87C600D0D59A /* GLUtil.c */,
+				B95462A61E5A87C600D0D59A /* GLUtil.h */,
+				B95462DB1E5A87C600D0D59A /* TextureUtil.c */,
+				B95462DC1E5A87C600D0D59A /* TextureUtil.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B95462A71E5A87C600D0D59A /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				B95462A81E5A87C600D0D59A /* include */,
+				B95462B31E5A87C600D0D59A /* JpegUtil.c */,
+				B95462B41E5A87C600D0D59A /* JpegUtil.h */,
+				B95462B51E5A87C600D0D59A /* prebuilt */,
+			);
+			path = jpeg;
+			sourceTree = "<group>";
+		};
+		B95462A81E5A87C600D0D59A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B95462A91E5A87C600D0D59A /* android */,
+				B95462AE1E5A87C600D0D59A /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B95462A91E5A87C600D0D59A /* android */ = {
+			isa = PBXGroup;
+			children = (
+				B95462AA1E5A87C600D0D59A /* jconfig.h */,
+				B95462AB1E5A87C600D0D59A /* jerror.h */,
+				B95462AC1E5A87C600D0D59A /* jmorecfg.h */,
+				B95462AD1E5A87C600D0D59A /* jpeglib.h */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		B95462AE1E5A87C600D0D59A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B95462AF1E5A87C600D0D59A /* jconfig.h */,
+				B95462B01E5A87C600D0D59A /* jerror.h */,
+				B95462B11E5A87C600D0D59A /* jmorecfg.h */,
+				B95462B21E5A87C600D0D59A /* jpeglib.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B95462B51E5A87C600D0D59A /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				B95462B61E5A87C600D0D59A /* android */,
+				B95462C01E5A87C600D0D59A /* ios */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		B95462B61E5A87C600D0D59A /* android */ = {
+			isa = PBXGroup;
+			children = (
+				B95462B71E5A87C600D0D59A /* Android.mk */,
+				B95462B81E5A87C600D0D59A /* arm64-v8a */,
+				B95462BA1E5A87C600D0D59A /* armeabi */,
+				B95462BC1E5A87C600D0D59A /* armeabi-v7a */,
+				B95462BE1E5A87C600D0D59A /* x86 */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		B95462B81E5A87C600D0D59A /* arm64-v8a */ = {
+			isa = PBXGroup;
+			children = (
+				B95462B91E5A87C600D0D59A /* libjpeg.a */,
+			);
+			path = "arm64-v8a";
+			sourceTree = "<group>";
+		};
+		B95462BA1E5A87C600D0D59A /* armeabi */ = {
+			isa = PBXGroup;
+			children = (
+				B95462BB1E5A87C600D0D59A /* libjpeg.a */,
+			);
+			path = armeabi;
+			sourceTree = "<group>";
+		};
+		B95462BC1E5A87C600D0D59A /* armeabi-v7a */ = {
+			isa = PBXGroup;
+			children = (
+				B95462BD1E5A87C600D0D59A /* libjpeg.a */,
+			);
+			path = "armeabi-v7a";
+			sourceTree = "<group>";
+		};
+		B95462BE1E5A87C600D0D59A /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				B95462BF1E5A87C600D0D59A /* libjpeg.a */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		B95462C01E5A87C600D0D59A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C11E5A87C600D0D59A /* libjpeg.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B95462C21E5A87C600D0D59A /* png */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C31E5A87C600D0D59A /* include */,
+				B95462CC1E5A87C600D0D59A /* PngUtil.c */,
+				B95462CD1E5A87C600D0D59A /* PngUtil.h */,
+				B95462CE1E5A87C600D0D59A /* prebuilt */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		B95462C31E5A87C600D0D59A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C41E5A87C600D0D59A /* android */,
+				B95462C81E5A87C600D0D59A /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B95462C41E5A87C600D0D59A /* android */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C51E5A87C600D0D59A /* png.h */,
+				B95462C61E5A87C600D0D59A /* pngconf.h */,
+				B95462C71E5A87C600D0D59A /* pnglibconf.h */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		B95462C81E5A87C600D0D59A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B95462C91E5A87C600D0D59A /* png.h */,
+				B95462CA1E5A87C600D0D59A /* pngconf.h */,
+				B95462CB1E5A87C600D0D59A /* pnglibconf.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B95462CE1E5A87C600D0D59A /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				B95462CF1E5A87C600D0D59A /* android */,
+				B95462D91E5A87C600D0D59A /* ios */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		B95462CF1E5A87C600D0D59A /* android */ = {
+			isa = PBXGroup;
+			children = (
+				B95462D01E5A87C600D0D59A /* Android.mk */,
+				B95462D11E5A87C600D0D59A /* arm64-v8a */,
+				B95462D31E5A87C600D0D59A /* armeabi */,
+				B95462D51E5A87C600D0D59A /* armeabi-v7a */,
+				B95462D71E5A87C600D0D59A /* x86 */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		B95462D11E5A87C600D0D59A /* arm64-v8a */ = {
+			isa = PBXGroup;
+			children = (
+				B95462D21E5A87C600D0D59A /* libpng.a */,
+			);
+			path = "arm64-v8a";
+			sourceTree = "<group>";
+		};
+		B95462D31E5A87C600D0D59A /* armeabi */ = {
+			isa = PBXGroup;
+			children = (
+				B95462D41E5A87C600D0D59A /* libpng.a */,
+			);
+			path = armeabi;
+			sourceTree = "<group>";
+		};
+		B95462D51E5A87C600D0D59A /* armeabi-v7a */ = {
+			isa = PBXGroup;
+			children = (
+				B95462D61E5A87C600D0D59A /* libpng.a */,
+			);
+			path = "armeabi-v7a";
+			sourceTree = "<group>";
+		};
+		B95462D71E5A87C600D0D59A /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				B95462D81E5A87C600D0D59A /* libpng.a */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		B95462D91E5A87C600D0D59A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B95462DA1E5A87C600D0D59A /* libpng.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B95462F01E5A87F500D0D59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95462F11E5A87F500D0D59A /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95462681E5A879400D0D59A /* OpenGLES10-Instance技术 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95462961E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术" */;
+			buildPhases = (
+				B95462651E5A879400D0D59A /* Sources */,
+				B95462661E5A879400D0D59A /* Frameworks */,
+				B95462671E5A879400D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES10-Instance技术";
+			productName = "OpenGLES10-Instance技术";
+			productReference = B95462691E5A879400D0D59A /* OpenGLES10-Instance技术.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95462811E5A879400D0D59A /* OpenGLES10-Instance技术Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95462991E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术Tests" */;
+			buildPhases = (
+				B954627E1E5A879400D0D59A /* Sources */,
+				B954627F1E5A879400D0D59A /* Frameworks */,
+				B95462801E5A879400D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95462841E5A879400D0D59A /* PBXTargetDependency */,
+			);
+			name = "OpenGLES10-Instance技术Tests";
+			productName = "OpenGLES10-Instance技术Tests";
+			productReference = B95462821E5A879400D0D59A /* OpenGLES10-Instance技术Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B954628C1E5A879400D0D59A /* OpenGLES10-Instance技术UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B954629C1E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术UITests" */;
+			buildPhases = (
+				B95462891E5A879400D0D59A /* Sources */,
+				B954628A1E5A879400D0D59A /* Frameworks */,
+				B954628B1E5A879400D0D59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B954628F1E5A879400D0D59A /* PBXTargetDependency */,
+			);
+			name = "OpenGLES10-Instance技术UITests";
+			productName = "OpenGLES10-Instance技术UITests";
+			productReference = B954628D1E5A879400D0D59A /* OpenGLES10-Instance技术UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95462611E5A879400D0D59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = qinmin;
+				TargetAttributes = {
+					B95462681E5A879400D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+					};
+					B95462811E5A879400D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B95462681E5A879400D0D59A;
+					};
+					B954628C1E5A879400D0D59A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B95462681E5A879400D0D59A;
+					};
+				};
+			};
+			buildConfigurationList = B95462641E5A879400D0D59A /* Build configuration list for PBXProject "OpenGLES10-Instance技术" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95462601E5A879400D0D59A;
+			productRefGroup = B954626A1E5A879400D0D59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95462681E5A879400D0D59A /* OpenGLES10-Instance技术 */,
+				B95462811E5A879400D0D59A /* OpenGLES10-Instance技术Tests */,
+				B954628C1E5A879400D0D59A /* OpenGLES10-Instance技术UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95462671E5A879400D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95462F41E5A885C00D0D59A /* wood.jpg in Resources */,
+				B954627C1E5A879400D0D59A /* LaunchScreen.storyboard in Resources */,
+				B95462DE1E5A87C600D0D59A /* frag.glsl in Resources */,
+				B95462791E5A879400D0D59A /* Assets.xcassets in Resources */,
+				B95462DF1E5A87C600D0D59A /* vert.glsl in Resources */,
+				B95462E91E5A87C600D0D59A /* Android.mk in Resources */,
+				B95462771E5A879400D0D59A /* Main.storyboard in Resources */,
+				B95462E21E5A87C600D0D59A /* Android.mk in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95462801E5A879400D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954628B1E5A879400D0D59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95462651E5A879400D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95462E01E5A87C600D0D59A /* GLUtil.c in Sources */,
+				B95462E11E5A87C600D0D59A /* JpegUtil.c in Sources */,
+				B95462741E5A879400D0D59A /* ViewController.m in Sources */,
+				B95462DD1E5A87C600D0D59A /* OpenGLESView.m in Sources */,
+				B95462E81E5A87C600D0D59A /* PngUtil.c in Sources */,
+				B95462EF1E5A87C600D0D59A /* TextureUtil.c in Sources */,
+				B95462711E5A879400D0D59A /* AppDelegate.m in Sources */,
+				B954626E1E5A879400D0D59A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B954627E1E5A879400D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95462871E5A879400D0D59A /* OpenGLES10_Instance__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95462891E5A879400D0D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95462921E5A879400D0D59A /* OpenGLES10_Instance__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95462841E5A879400D0D59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95462681E5A879400D0D59A /* OpenGLES10-Instance技术 */;
+			targetProxy = B95462831E5A879400D0D59A /* PBXContainerItemProxy */;
+		};
+		B954628F1E5A879400D0D59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95462681E5A879400D0D59A /* OpenGLES10-Instance技术 */;
+			targetProxy = B954628E1E5A879400D0D59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95462751E5A879400D0D59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95462761E5A879400D0D59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B954627A1E5A879400D0D59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B954627B1E5A879400D0D59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95462941E5A879400D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95462951E5A879400D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95462971E5A879400D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLES10-Instance技术/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES10-Instance技术/Utils/png/prebuilt/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95462981E5A879400D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLES10-Instance技术/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES10-Instance技术/Utils/png/prebuilt/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B954629A1E5A879400D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES10-Instance技术.app/OpenGLES10-Instance技术";
+			};
+			name = Debug;
+		};
+		B954629B1E5A879400D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES10-Instance技术.app/OpenGLES10-Instance技术";
+			};
+			name = Release;
+		};
+		B954629D1E5A879400D0D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES10-Instance技术";
+			};
+			name = Debug;
+		};
+		B954629E1E5A879400D0D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES10-Instance技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES10-Instance--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES10-Instance技术";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95462641E5A879400D0D59A /* Build configuration list for PBXProject "OpenGLES10-Instance技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95462941E5A879400D0D59A /* Debug */,
+				B95462951E5A879400D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95462961E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95462971E5A879400D0D59A /* Debug */,
+				B95462981E5A879400D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95462991E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954629A1E5A879400D0D59A /* Debug */,
+				B954629B1E5A879400D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B954629C1E5A879400D0D59A /* Build configuration list for PBXNativeTarget "OpenGLES10-Instance技术UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954629D1E5A879400D0D59A /* Debug */,
+				B954629E1E5A879400D0D59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95462611E5A879400D0D59A /* Project object */;
+}
