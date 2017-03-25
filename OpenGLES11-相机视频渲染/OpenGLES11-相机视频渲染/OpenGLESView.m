@@ -17,10 +17,6 @@
     GLuint          _colorRenderBuffer;
     GLuint          _frameBuffer;
 
-    GLuint          _program;
-    GLuint          _vbo;
-    int             _vertCount;
-    
     GLRender        *_render;
 }
 @end
@@ -35,8 +31,7 @@
 
 - (void)dealloc
 {
-    glDeleteBuffers(1, &_vbo);
-    glDeleteProgram(_program);
+    
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
