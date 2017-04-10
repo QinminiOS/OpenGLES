@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9374A971E9C2E6F007BCFCD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9374A961E9C2E6F007BCFCD /* 1.jpg */; };
+		B9374A991E9C2F1E007BCFCD /* mosaic.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B9374A981E9C2F1E007BCFCD /* mosaic.glsl */; };
 		B95D627F1E907CCA001B1618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D627E1E907CCA001B1618 /* main.m */; };
 		B95D62821E907CCA001B1618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D62811E907CCA001B1618 /* AppDelegate.m */; };
 		B95D62851E907CCA001B1618 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D62841E907CCA001B1618 /* ViewController.m */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9374A961E9C2E6F007BCFCD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B9374A981E9C2F1E007BCFCD /* mosaic.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mosaic.glsl; sourceTree = "<group>"; };
 		B95D627A1E907CCA001B1618 /* OpenGLES12-帧缓存.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES12-帧缓存.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95D627E1E907CCA001B1618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B95D62801E907CCA001B1618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				B95D62841E907CCA001B1618 /* ViewController.m */,
 				B95D62B11E907D23001B1618 /* OpenGLESView.h */,
 				B95D62B21E907D23001B1618 /* OpenGLESView.m */,
+				B9374A961E9C2E6F007BCFCD /* 1.jpg */,
 				B95D62C61E907D23001B1618 /* wood.jpg */,
 				B95D62B31E907D23001B1618 /* pic.jpg */,
 				B95D62B01E907D23001B1618 /* flower.jpg */,
@@ -176,8 +181,9 @@
 		B95D62B41E907D23001B1618 /* Shader */ = {
 			isa = PBXGroup;
 			children = (
-				B95D62B51E907D23001B1618 /* frag.glsl */,
 				B95D62B61E907D23001B1618 /* vert.glsl */,
+				B95D62B51E907D23001B1618 /* frag.glsl */,
+				B9374A981E9C2F1E007BCFCD /* mosaic.glsl */,
 			);
 			path = Shader;
 			sourceTree = "<group>";
@@ -350,9 +356,11 @@
 				B95D62CF1E907D23001B1618 /* wood.jpg in Resources */,
 				B95D62C71E907D23001B1618 /* flower.jpg in Resources */,
 				B95D62CB1E907D23001B1618 /* vert.glsl in Resources */,
+				B9374A991E9C2F1E007BCFCD /* mosaic.glsl in Resources */,
 				B95D628D1E907CCA001B1618 /* LaunchScreen.storyboard in Resources */,
 				B95D628A1E907CCA001B1618 /* Assets.xcassets in Resources */,
 				B95D62881E907CCA001B1618 /* Main.storyboard in Resources */,
+				B9374A971E9C2E6F007BCFCD /* 1.jpg in Resources */,
 				B95D62C91E907D23001B1618 /* pic.jpg in Resources */,
 				B95D62CA1E907D23001B1618 /* frag.glsl in Resources */,
 			);
