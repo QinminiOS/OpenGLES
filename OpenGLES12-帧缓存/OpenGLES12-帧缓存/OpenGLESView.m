@@ -127,14 +127,14 @@
 {
     NSString *vertFile1 = [[NSBundle mainBundle] pathForResource:@"vert.glsl" ofType:nil];
     NSString *fragFile1 = [[NSBundle mainBundle] pathForResource:@"mosaic.glsl" ofType:nil];
-    _program1 = createGLProgramFromFile(vertFile1.UTF8String, fragFile1.UTF8String);
+    _program = createGLProgramFromFile(vertFile1.UTF8String, fragFile1.UTF8String);
 }
 
 - (void)setupGLProgram1
 {
     NSString *vertFile = [[NSBundle mainBundle] pathForResource:@"vert.glsl" ofType:nil];
     NSString *fragFile = [[NSBundle mainBundle] pathForResource:@"frag.glsl" ofType:nil];
-    _program = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
+    _program1 = createGLProgramFromFile(vertFile.UTF8String, fragFile.UTF8String);
 }
 
 - (void)setupVBO
