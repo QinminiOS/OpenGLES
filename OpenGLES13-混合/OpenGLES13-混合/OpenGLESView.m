@@ -200,9 +200,8 @@
     glClear(GL_COLOR_BUFFER_BIT);
     glViewport(0, 0, self.frame.size.width, self.frame.size.height);
     
-    // 第一个纹理关闭混合
     glEnable(GL_BLEND);
-    glBlendFunc(GL_ONE, GL_ZERO);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     
     // 激活纹理
     glActiveTexture(GL_TEXTURE0);
@@ -215,7 +214,7 @@
     [_context presentRenderbuffer:GL_RENDERBUFFER];
 }
 
-- (void)render2
+- (void)render
 {
     glClearColor(1.0, 1.0, 1.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
@@ -233,7 +232,7 @@
     
     // 渲染的时候开启混合
     glEnable(GL_BLEND);
-    glBlendFunc(GL_ZERO, GL_ONE);
+    glBlendFunc(GL_ONE, GL_ONE);
     
     // 激活纹理
     glActiveTexture(GL_TEXTURE0);
@@ -246,7 +245,7 @@
     [_context presentRenderbuffer:GL_RENDERBUFFER];
 }
 
-- (void)render
+- (void)render3
 {
     glClearColor(1.0, 1.0, 1.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
