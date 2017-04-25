@@ -122,7 +122,7 @@ int read_png_file(const char *filepath, pic_data *out)
 
 int write_png_file(const char *filename , pic_data *graph)
 {
-    int j, i, temp, pos;
+    int j, i, temp;
     png_byte color_type;
     
     png_structp png_ptr;
