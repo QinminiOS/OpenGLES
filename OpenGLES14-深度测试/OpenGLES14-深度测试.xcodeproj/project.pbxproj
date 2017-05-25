@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A441611ED6E5FA00023543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441601ED6E5FA00023543 /* main.m */; };
+		B9A441641ED6E5FA00023543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441631ED6E5FA00023543 /* AppDelegate.m */; };
+		B9A441671ED6E5FA00023543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441661ED6E5FA00023543 /* ViewController.m */; };
+		B9A4416A1ED6E5FA00023543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A441681ED6E5FA00023543 /* Main.storyboard */; };
+		B9A4416C1ED6E5FA00023543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A4416B1ED6E5FA00023543 /* Assets.xcassets */; };
+		B9A4416F1ED6E5FA00023543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A4416D1ED6E5FA00023543 /* LaunchScreen.storyboard */; };
+		B9A4417A1ED6E5FA00023543 /* OpenGLES14_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441791ED6E5FA00023543 /* OpenGLES14_____Tests.m */; };
+		B9A441851ED6E5FA00023543 /* OpenGLES14_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441841ED6E5FA00023543 /* OpenGLES14_____UITests.m */; };
+		B9A441C51ED6E62800023543 /* GLMath.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441931ED6E62800023543 /* GLMath.c */; };
+		B9A441C61ED6E62800023543 /* GLMathBezierCurve.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441951ED6E62800023543 /* GLMathBezierCurve.c */; };
+		B9A441C71ED6E62800023543 /* GLMathMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441971ED6E62800023543 /* GLMathMatrix.c */; };
+		B9A441C81ED6E62800023543 /* GLMathMatrixStack.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441991ED6E62800023543 /* GLMathMatrixStack.c */; };
+		B9A441C91ED6E62800023543 /* GLMathQuaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A4419B1ED6E62800023543 /* GLMathQuaternion.c */; };
+		B9A441CA1ED6E62800023543 /* GLMathTransforms.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A4419D1ED6E62800023543 /* GLMathTransforms.c */; };
+		B9A441CB1ED6E62800023543 /* GLMathUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441A01ED6E62800023543 /* GLMathUtilities.c */; };
+		B9A441CC1ED6E62800023543 /* GLMathUtilitiesInline.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441A21ED6E62800023543 /* GLMathUtilitiesInline.c */; };
+		B9A441CD1ED6E62800023543 /* GLMathVector.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441A31ED6E62800023543 /* GLMathVector.c */; };
+		B9A441CE1ED6E62800023543 /* OpenGLESView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A441A61ED6E62800023543 /* OpenGLESView.m */; };
+		B9A441CF1ED6E62800023543 /* frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B9A441A81ED6E62800023543 /* frag.glsl */; };
+		B9A441D01ED6E62800023543 /* vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B9A441A91ED6E62800023543 /* vert.glsl */; };
+		B9A441D11ED6E62800023543 /* GLUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441AB1ED6E62800023543 /* GLUtil.c */; };
+		B9A441D21ED6E62800023543 /* JpegUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441B41ED6E62800023543 /* JpegUtil.c */; };
+		B9A441D31ED6E62800023543 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A441B81ED6E62800023543 /* libjpeg.a */; };
+		B9A441D41ED6E62800023543 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A441C11ED6E62800023543 /* libpng.a */; };
+		B9A441D61ED6E62800023543 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9A441C41ED6E62800023543 /* wood.jpg */; };
+		B9A441D91ED6E63A00023543 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A441D81ED6E63A00023543 /* libz.tbd */; };
+		B9A441DC1ED6E68000023543 /* PngUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A441DA1ED6E68000023543 /* PngUtil.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9A441761ED6E5FA00023543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A441541ED6E5FA00023543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A4415B1ED6E5FA00023543;
+			remoteInfo = "OpenGLES14-深度测试";
+		};
+		B9A441811ED6E5FA00023543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A441541ED6E5FA00023543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A4415B1ED6E5FA00023543;
+			remoteInfo = "OpenGLES14-深度测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9A4415C1ED6E5FA00023543 /* OpenGLES14-深度测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES14-深度测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A441601ED6E5FA00023543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9A441621ED6E5FA00023543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9A441631ED6E5FA00023543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9A441651ED6E5FA00023543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9A441661ED6E5FA00023543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9A441691ED6E5FA00023543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9A4416B1ED6E5FA00023543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9A4416E1ED6E5FA00023543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9A441701ED6E5FA00023543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A441751ED6E5FA00023543 /* OpenGLES14-深度测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES14-深度测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A441791ED6E5FA00023543 /* OpenGLES14_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES14_____Tests.m"; sourceTree = "<group>"; };
+		B9A4417B1ED6E5FA00023543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A441801ED6E5FA00023543 /* OpenGLES14-深度测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLES14-深度测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A441841ED6E5FA00023543 /* OpenGLES14_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLES14_____UITests.m"; sourceTree = "<group>"; };
+		B9A441861ED6E5FA00023543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A441931ED6E62800023543 /* GLMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMath.c; sourceTree = "<group>"; };
+		B9A441941ED6E62800023543 /* GLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMath.h; sourceTree = "<group>"; };
+		B9A441951ED6E62800023543 /* GLMathBezierCurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathBezierCurve.c; sourceTree = "<group>"; };
+		B9A441961ED6E62800023543 /* GLMathBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathBezierCurve.h; sourceTree = "<group>"; };
+		B9A441971ED6E62800023543 /* GLMathMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrix.c; sourceTree = "<group>"; };
+		B9A441981ED6E62800023543 /* GLMathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrix.h; sourceTree = "<group>"; };
+		B9A441991ED6E62800023543 /* GLMathMatrixStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrixStack.c; sourceTree = "<group>"; };
+		B9A4419A1ED6E62800023543 /* GLMathMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrixStack.h; sourceTree = "<group>"; };
+		B9A4419B1ED6E62800023543 /* GLMathQuaternion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathQuaternion.c; sourceTree = "<group>"; };
+		B9A4419C1ED6E62800023543 /* GLMathQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathQuaternion.h; sourceTree = "<group>"; };
+		B9A4419D1ED6E62800023543 /* GLMathTransforms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathTransforms.c; sourceTree = "<group>"; };
+		B9A4419E1ED6E62800023543 /* GLMathTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTransforms.h; sourceTree = "<group>"; };
+		B9A4419F1ED6E62800023543 /* GLMathTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTypes.h; sourceTree = "<group>"; };
+		B9A441A01ED6E62800023543 /* GLMathUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilities.c; sourceTree = "<group>"; };
+		B9A441A11ED6E62800023543 /* GLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathUtilities.h; sourceTree = "<group>"; };
+		B9A441A21ED6E62800023543 /* GLMathUtilitiesInline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilitiesInline.c; sourceTree = "<group>"; };
+		B9A441A31ED6E62800023543 /* GLMathVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathVector.c; sourceTree = "<group>"; };
+		B9A441A41ED6E62800023543 /* GLMathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathVector.h; sourceTree = "<group>"; };
+		B9A441A51ED6E62800023543 /* OpenGLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESView.h; sourceTree = "<group>"; };
+		B9A441A61ED6E62800023543 /* OpenGLESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLESView.m; sourceTree = "<group>"; };
+		B9A441A81ED6E62800023543 /* frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frag.glsl; sourceTree = "<group>"; };
+		B9A441A91ED6E62800023543 /* vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vert.glsl; sourceTree = "<group>"; };
+		B9A441AB1ED6E62800023543 /* GLUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLUtil.c; sourceTree = "<group>"; };
+		B9A441AC1ED6E62800023543 /* GLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtil.h; sourceTree = "<group>"; };
+		B9A441B01ED6E62800023543 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		B9A441B11ED6E62800023543 /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		B9A441B21ED6E62800023543 /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		B9A441B31ED6E62800023543 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		B9A441B41ED6E62800023543 /* JpegUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JpegUtil.c; sourceTree = "<group>"; };
+		B9A441B51ED6E62800023543 /* JpegUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpegUtil.h; sourceTree = "<group>"; };
+		B9A441B81ED6E62800023543 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		B9A441BC1ED6E62800023543 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		B9A441BD1ED6E62800023543 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		B9A441BE1ED6E62800023543 /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		B9A441C11ED6E62800023543 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		B9A441C41ED6E62800023543 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		B9A441D81ED6E63A00023543 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9A441DA1ED6E68000023543 /* PngUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PngUtil.c; sourceTree = "<group>"; };
+		B9A441DB1ED6E68000023543 /* PngUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PngUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9A441591ED6E5FA00023543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A441D91ED6E63A00023543 /* libz.tbd in Frameworks */,
+				B9A441D31ED6E62800023543 /* libjpeg.a in Frameworks */,
+				B9A441D41ED6E62800023543 /* libpng.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A441721ED6E5FA00023543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A4417D1ED6E5FA00023543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9A441531ED6E5FA00023543 = {
+			isa = PBXGroup;
+			children = (
+				B9A4415E1ED6E5FA00023543 /* OpenGLES14-深度测试 */,
+				B9A441781ED6E5FA00023543 /* OpenGLES14-深度测试Tests */,
+				B9A441831ED6E5FA00023543 /* OpenGLES14-深度测试UITests */,
+				B9A4415D1ED6E5FA00023543 /* Products */,
+				B9A441D71ED6E63A00023543 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9A4415D1ED6E5FA00023543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4415C1ED6E5FA00023543 /* OpenGLES14-深度测试.app */,
+				B9A441751ED6E5FA00023543 /* OpenGLES14-深度测试Tests.xctest */,
+				B9A441801ED6E5FA00023543 /* OpenGLES14-深度测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A4415E1ED6E5FA00023543 /* OpenGLES14-深度测试 */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441AA1ED6E62800023543 /* Utils */,
+				B9A441A71ED6E62800023543 /* Shader */,
+				B9A441921ED6E62800023543 /* Math */,
+				B9A441A51ED6E62800023543 /* OpenGLESView.h */,
+				B9A441A61ED6E62800023543 /* OpenGLESView.m */,
+				B9A441621ED6E5FA00023543 /* AppDelegate.h */,
+				B9A441631ED6E5FA00023543 /* AppDelegate.m */,
+				B9A441651ED6E5FA00023543 /* ViewController.h */,
+				B9A441661ED6E5FA00023543 /* ViewController.m */,
+				B9A441C41ED6E62800023543 /* wood.jpg */,
+				B9A441681ED6E5FA00023543 /* Main.storyboard */,
+				B9A4416B1ED6E5FA00023543 /* Assets.xcassets */,
+				B9A4416D1ED6E5FA00023543 /* LaunchScreen.storyboard */,
+				B9A441701ED6E5FA00023543 /* Info.plist */,
+				B9A4415F1ED6E5FA00023543 /* Supporting Files */,
+			);
+			path = "OpenGLES14-深度测试";
+			sourceTree = "<group>";
+		};
+		B9A4415F1ED6E5FA00023543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441601ED6E5FA00023543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9A441781ED6E5FA00023543 /* OpenGLES14-深度测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441791ED6E5FA00023543 /* OpenGLES14_____Tests.m */,
+				B9A4417B1ED6E5FA00023543 /* Info.plist */,
+			);
+			path = "OpenGLES14-深度测试Tests";
+			sourceTree = "<group>";
+		};
+		B9A441831ED6E5FA00023543 /* OpenGLES14-深度测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441841ED6E5FA00023543 /* OpenGLES14_____UITests.m */,
+				B9A441861ED6E5FA00023543 /* Info.plist */,
+			);
+			path = "OpenGLES14-深度测试UITests";
+			sourceTree = "<group>";
+		};
+		B9A441921ED6E62800023543 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441931ED6E62800023543 /* GLMath.c */,
+				B9A441941ED6E62800023543 /* GLMath.h */,
+				B9A441951ED6E62800023543 /* GLMathBezierCurve.c */,
+				B9A441961ED6E62800023543 /* GLMathBezierCurve.h */,
+				B9A441971ED6E62800023543 /* GLMathMatrix.c */,
+				B9A441981ED6E62800023543 /* GLMathMatrix.h */,
+				B9A441991ED6E62800023543 /* GLMathMatrixStack.c */,
+				B9A4419A1ED6E62800023543 /* GLMathMatrixStack.h */,
+				B9A4419B1ED6E62800023543 /* GLMathQuaternion.c */,
+				B9A4419C1ED6E62800023543 /* GLMathQuaternion.h */,
+				B9A4419D1ED6E62800023543 /* GLMathTransforms.c */,
+				B9A4419E1ED6E62800023543 /* GLMathTransforms.h */,
+				B9A4419F1ED6E62800023543 /* GLMathTypes.h */,
+				B9A441A01ED6E62800023543 /* GLMathUtilities.c */,
+				B9A441A11ED6E62800023543 /* GLMathUtilities.h */,
+				B9A441A21ED6E62800023543 /* GLMathUtilitiesInline.c */,
+				B9A441A31ED6E62800023543 /* GLMathVector.c */,
+				B9A441A41ED6E62800023543 /* GLMathVector.h */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		B9A441A71ED6E62800023543 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441A81ED6E62800023543 /* frag.glsl */,
+				B9A441A91ED6E62800023543 /* vert.glsl */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		B9A441AA1ED6E62800023543 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441AB1ED6E62800023543 /* GLUtil.c */,
+				B9A441AC1ED6E62800023543 /* GLUtil.h */,
+				B9A441AD1ED6E62800023543 /* jpeg */,
+				B9A441B91ED6E62800023543 /* png */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B9A441AD1ED6E62800023543 /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441B51ED6E62800023543 /* JpegUtil.h */,
+				B9A441B41ED6E62800023543 /* JpegUtil.c */,
+				B9A441AE1ED6E62800023543 /* include */,
+				B9A441B61ED6E62800023543 /* prebuilt */,
+			);
+			path = jpeg;
+			sourceTree = "<group>";
+		};
+		B9A441AE1ED6E62800023543 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441AF1ED6E62800023543 /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B9A441AF1ED6E62800023543 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441B01ED6E62800023543 /* jconfig.h */,
+				B9A441B11ED6E62800023543 /* jerror.h */,
+				B9A441B21ED6E62800023543 /* jmorecfg.h */,
+				B9A441B31ED6E62800023543 /* jpeglib.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B9A441B61ED6E62800023543 /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441B71ED6E62800023543 /* ios */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		B9A441B71ED6E62800023543 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441B81ED6E62800023543 /* libjpeg.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B9A441B91ED6E62800023543 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441DB1ED6E68000023543 /* PngUtil.h */,
+				B9A441DA1ED6E68000023543 /* PngUtil.c */,
+				B9A441BA1ED6E62800023543 /* include */,
+				B9A441BF1ED6E62800023543 /* prebuilt */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		B9A441BA1ED6E62800023543 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441BB1ED6E62800023543 /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B9A441BB1ED6E62800023543 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441BC1ED6E62800023543 /* png.h */,
+				B9A441BD1ED6E62800023543 /* pngconf.h */,
+				B9A441BE1ED6E62800023543 /* pnglibconf.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B9A441BF1ED6E62800023543 /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441C01ED6E62800023543 /* ios */,
+			);
+			path = prebuilt;
+			sourceTree = "<group>";
+		};
+		B9A441C01ED6E62800023543 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441C11ED6E62800023543 /* libpng.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B9A441D71ED6E63A00023543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A441D81ED6E63A00023543 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9A4415B1ED6E5FA00023543 /* OpenGLES14-深度测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A441891ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试" */;
+			buildPhases = (
+				B9A441581ED6E5FA00023543 /* Sources */,
+				B9A441591ED6E5FA00023543 /* Frameworks */,
+				B9A4415A1ED6E5FA00023543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES14-深度测试";
+			productName = "OpenGLES14-深度测试";
+			productReference = B9A4415C1ED6E5FA00023543 /* OpenGLES14-深度测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9A441741ED6E5FA00023543 /* OpenGLES14-深度测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A4418C1ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试Tests" */;
+			buildPhases = (
+				B9A441711ED6E5FA00023543 /* Sources */,
+				B9A441721ED6E5FA00023543 /* Frameworks */,
+				B9A441731ED6E5FA00023543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A441771ED6E5FA00023543 /* PBXTargetDependency */,
+			);
+			name = "OpenGLES14-深度测试Tests";
+			productName = "OpenGLES14-深度测试Tests";
+			productReference = B9A441751ED6E5FA00023543 /* OpenGLES14-深度测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9A4417F1ED6E5FA00023543 /* OpenGLES14-深度测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A4418F1ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试UITests" */;
+			buildPhases = (
+				B9A4417C1ED6E5FA00023543 /* Sources */,
+				B9A4417D1ED6E5FA00023543 /* Frameworks */,
+				B9A4417E1ED6E5FA00023543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A441821ED6E5FA00023543 /* PBXTargetDependency */,
+			);
+			name = "OpenGLES14-深度测试UITests";
+			productName = "OpenGLES14-深度测试UITests";
+			productReference = B9A441801ED6E5FA00023543 /* OpenGLES14-深度测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9A441541ED6E5FA00023543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qinmin;
+				TargetAttributes = {
+					B9A4415B1ED6E5FA00023543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+					};
+					B9A441741ED6E5FA00023543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9A4415B1ED6E5FA00023543;
+					};
+					B9A4417F1ED6E5FA00023543 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9A4415B1ED6E5FA00023543;
+					};
+				};
+			};
+			buildConfigurationList = B9A441571ED6E5FA00023543 /* Build configuration list for PBXProject "OpenGLES14-深度测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9A441531ED6E5FA00023543;
+			productRefGroup = B9A4415D1ED6E5FA00023543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9A4415B1ED6E5FA00023543 /* OpenGLES14-深度测试 */,
+				B9A441741ED6E5FA00023543 /* OpenGLES14-深度测试Tests */,
+				B9A4417F1ED6E5FA00023543 /* OpenGLES14-深度测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9A4415A1ED6E5FA00023543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A4416F1ED6E5FA00023543 /* LaunchScreen.storyboard in Resources */,
+				B9A441CF1ED6E62800023543 /* frag.glsl in Resources */,
+				B9A4416C1ED6E5FA00023543 /* Assets.xcassets in Resources */,
+				B9A441D01ED6E62800023543 /* vert.glsl in Resources */,
+				B9A441D61ED6E62800023543 /* wood.jpg in Resources */,
+				B9A4416A1ED6E5FA00023543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A441731ED6E5FA00023543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A4417E1ED6E5FA00023543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9A441581ED6E5FA00023543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A441671ED6E5FA00023543 /* ViewController.m in Sources */,
+				B9A441641ED6E5FA00023543 /* AppDelegate.m in Sources */,
+				B9A441C51ED6E62800023543 /* GLMath.c in Sources */,
+				B9A441C71ED6E62800023543 /* GLMathMatrix.c in Sources */,
+				B9A441C61ED6E62800023543 /* GLMathBezierCurve.c in Sources */,
+				B9A441CB1ED6E62800023543 /* GLMathUtilities.c in Sources */,
+				B9A441CC1ED6E62800023543 /* GLMathUtilitiesInline.c in Sources */,
+				B9A441CD1ED6E62800023543 /* GLMathVector.c in Sources */,
+				B9A441611ED6E5FA00023543 /* main.m in Sources */,
+				B9A441CE1ED6E62800023543 /* OpenGLESView.m in Sources */,
+				B9A441D21ED6E62800023543 /* JpegUtil.c in Sources */,
+				B9A441D11ED6E62800023543 /* GLUtil.c in Sources */,
+				B9A441C91ED6E62800023543 /* GLMathQuaternion.c in Sources */,
+				B9A441DC1ED6E68000023543 /* PngUtil.c in Sources */,
+				B9A441CA1ED6E62800023543 /* GLMathTransforms.c in Sources */,
+				B9A441C81ED6E62800023543 /* GLMathMatrixStack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A441711ED6E5FA00023543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A4417A1ED6E5FA00023543 /* OpenGLES14_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A4417C1ED6E5FA00023543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A441851ED6E5FA00023543 /* OpenGLES14_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9A441771ED6E5FA00023543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A4415B1ED6E5FA00023543 /* OpenGLES14-深度测试 */;
+			targetProxy = B9A441761ED6E5FA00023543 /* PBXContainerItemProxy */;
+		};
+		B9A441821ED6E5FA00023543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A4415B1ED6E5FA00023543 /* OpenGLES14-深度测试 */;
+			targetProxy = B9A441811ED6E5FA00023543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9A441681ED6E5FA00023543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9A441691ED6E5FA00023543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9A4416D1ED6E5FA00023543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9A4416E1ED6E5FA00023543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9A441871ED6E5FA00023543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9A441881ED6E5FA00023543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A4418A1ED6E5FA00023543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLES14-深度测试/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES14-深度测试/Utils/png/prebuilt/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9A4418B1ED6E5FA00023543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGLES14-深度测试/Utils/jpeg/prebuilt/ios",
+					"$(PROJECT_DIR)/OpenGLES14-深度测试/Utils/png/prebuilt/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9A4418D1ED6E5FA00023543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES14-深度测试.app/OpenGLES14-深度测试";
+			};
+			name = Debug;
+		};
+		B9A4418E1ED6E5FA00023543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLES14-深度测试.app/OpenGLES14-深度测试";
+			};
+			name = Release;
+		};
+		B9A441901ED6E5FA00023543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES14-深度测试";
+			};
+			name = Debug;
+		};
+		B9A441911ED6E5FA00023543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = "OpenGLES14-深度测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanhujiang.OpenGLES14-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGLES14-深度测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9A441571ED6E5FA00023543 /* Build configuration list for PBXProject "OpenGLES14-深度测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A441871ED6E5FA00023543 /* Debug */,
+				B9A441881ED6E5FA00023543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A441891ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A4418A1ED6E5FA00023543 /* Debug */,
+				B9A4418B1ED6E5FA00023543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A4418C1ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A4418D1ED6E5FA00023543 /* Debug */,
+				B9A4418E1ED6E5FA00023543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A4418F1ED6E5FA00023543 /* Build configuration list for PBXNativeTarget "OpenGLES14-深度测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A441901ED6E5FA00023543 /* Debug */,
+				B9A441911ED6E5FA00023543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9A441541ED6E5FA00023543 /* Project object */;
+}
